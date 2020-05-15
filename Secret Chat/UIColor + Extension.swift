@@ -19,4 +19,7 @@ extension UIColor {
     static func buttonDark() -> UIColor {
         return .black
     }
+    static func textFieldGray() -> UIColor {
+        return .gray
+    }
 }

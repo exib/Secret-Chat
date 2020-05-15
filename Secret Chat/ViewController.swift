@@ -25,6 +25,9 @@ class AuthViewController: UIViewController {
         view.backgroundColor = .white
         setupConstraints()
     }
+}
+// MARK: - Setup Constraints
+extension AuthViewController {
     private func setupConstraints() {
         logoImageView.translatesAutoresizingMaskIntoConstraints = false
         
@@ -53,9 +56,6 @@ class AuthViewController: UIViewController {
         ])
         
     }
-    
-
-
 }
 // MARK: - SwiftUI
 // С помощью кода ниже мы можем вызвать режим предпросмотра Canvas

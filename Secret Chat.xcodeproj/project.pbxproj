@@ -14,6 +14,8 @@
 		A31E36E7246EC3A70023A56A /* UIImageView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31E36E6246EC3A70023A56A /* UIImageView + Extension.swift */; };
 		A35B8302246ECD7800012975 /* ButtonFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35B8301246ECD7800012975 /* ButtonFormView.swift */; };
 		A35B8304246ED64800012975 /* StackView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35B8303246ED64800012975 /* StackView + Extension.swift */; };
+		A35B8306246EDA0B00012975 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35B8305246EDA0B00012975 /* SignUpViewController.swift */; };
+		A35B8308246EDE6900012975 /* OneLineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35B8307246EDE6900012975 /* OneLineTextField.swift */; };
 		A39C5E2C246E9EE800617200 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39C5E2B246E9EE800617200 /* AppDelegate.swift */; };
 		A39C5E2E246E9EE800617200 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39C5E2D246E9EE800617200 /* SceneDelegate.swift */; };
 		A39C5E30246E9EE800617200 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39C5E2F246E9EE800617200 /* ViewController.swift */; };
@@ -29,6 +31,8 @@
 		A31E36E6246EC3A70023A56A /* UIImageView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + Extension.swift"; sourceTree = "<group>"; };
 		A35B8301246ECD7800012975 /* ButtonFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFormView.swift; sourceTree = "<group>"; };
 		A35B8303246ED64800012975 /* StackView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StackView + Extension.swift"; sourceTree = "<group>"; };
+		A35B8305246EDA0B00012975 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		A35B8307246EDE6900012975 /* OneLineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneLineTextField.swift; sourceTree = "<group>"; };
 		A39C5E28246E9EE800617200 /* Secret Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Secret Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A39C5E2B246E9EE800617200 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A39C5E2D246E9EE800617200 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +75,8 @@
 				A39C5E2B246E9EE800617200 /* AppDelegate.swift */,
 				A39C5E2D246E9EE800617200 /* SceneDelegate.swift */,
 				A39C5E2F246E9EE800617200 /* ViewController.swift */,
+				A35B8305246EDA0B00012975 /* SignUpViewController.swift */,
+				A35B8307246EDE6900012975 /* OneLineTextField.swift */,
 				A35B8303246ED64800012975 /* StackView + Extension.swift */,
 				A35B8301246ECD7800012975 /* ButtonFormView.swift */,
 				A31E36E6246EC3A70023A56A /* UIImageView + Extension.swift */,
@@ -155,6 +161,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A35B8308246EDE6900012975 /* OneLineTextField.swift in Sources */,
+				A35B8306246EDA0B00012975 /* SignUpViewController.swift in Sources */,
 				A31E36E1246EBDAF0023A56A /* UIFont + Extension.swift in Sources */,
 				A39C5E30246E9EE800617200 /* ViewController.swift in Sources */,
 				A31E36E5246EC29C0023A56A /* Label + Extension.swift in Sources */,
